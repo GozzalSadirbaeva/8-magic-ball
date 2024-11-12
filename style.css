@@ -1,37 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.container{
-    max-width: 1200px;
+.container {
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
-body{
-    background-color: pink;
+body {
 }
-h1{
-    font-family: "Sour Gummy", sans-serif;
-    font-size: 60px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    margin: 30px;
+h1 {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
 }
-.press{
-    font-family: "Sour Gummy", sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
+.press {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
 }
-form{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    width: 400px;
-    height: 30px;
-    margin: 30px;
+/* 
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  width: 400px;
+  height: 30px;
+  margin: 30px;
+} */
+body {
+  background-color: rgb(236, 224, 226);
+  font-family: "Sour Gummy", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: #333;
+}
+form {
+  margin-top: 20px;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#answer {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #007bff;
 }
